@@ -10,13 +10,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Zip client folder
-        run: |
-          cd client
-          zip -r client.zip .
-          mv client.zip ../
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
           name: client-zip
-          path: client.zip
+          path: ./client
