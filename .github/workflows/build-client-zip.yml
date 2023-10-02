@@ -13,5 +13,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: client-zip
+          name: trygoda-client
           path: ./client
