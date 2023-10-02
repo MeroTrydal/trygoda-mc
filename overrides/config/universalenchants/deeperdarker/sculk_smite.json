@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "twilightforest:block_and_chain",
+    "farmersdelight:skillet"
+  ],
+  "incompatible": [
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:impaling"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch"
+  ]
+}
