@@ -2,8 +2,7 @@ name: build client zip
 
 on:
   push:
-    tags:
-      - "v*.*.*"
+    branches: [main]
 
 jobs:
   build:
@@ -14,9 +13,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: trygoda-client{{ github.tag }}
+          name: trygoda-client
           path: ./client
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: client.zip
