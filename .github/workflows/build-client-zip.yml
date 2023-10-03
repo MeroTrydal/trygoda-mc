@@ -14,7 +14,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: trygoda-client
+          name: trygoda-client{{ github.tag }}
           path: ./client
       - name: Release
         uses: softprops/action-gh-release@v1
