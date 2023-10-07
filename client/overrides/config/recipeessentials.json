@@ -21,7 +21,7 @@
   },
   "cacheRecipes": {
     "desc:": "Caches recipe lookups to greatly improve lookup speed: default:true",
-    "cacheRecipes": true
+    "cacheRecipes": false
   },
   "logCachingErrors": {
     "desc:": "Whether to log errors during caching: default:false",
