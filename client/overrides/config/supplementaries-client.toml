@@ -173,7 +173,7 @@
 	clock_right_click = true
 	#Allow to right click with a compass to display current coordinates in numerical form
 	compass_right_click = false
-	#Renders an enchantment glint on placeable enchanted books
+	#Renders an enchantment glint on placeable enchanted booksNote that turning this on will make book piles use tile renderer instead of baked models making them slower to render
 	placeable_books_glint = false
 	#Placeable books random colors
 	#This is a list. Add more entries with syntax [[...]]
