@@ -10,8 +10,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: trygoda-client-${{BRANCH_NAME}}
+          name: trygoda-client-${{ steps.date.outputs.date }}
           path: ./client
